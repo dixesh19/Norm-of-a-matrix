@@ -18,38 +18,29 @@ End the program.
 #Developed by: DINESH R
 #RegisterNumber: 212224240037
 # 1-Norm of a Matrix
-'''
-Program to find 2-norm of a matrix.
-Developed by: DINESH R
-RegisterNumber: 212224240037
-'''
-import numpy as np
-mat = np.array(eval(input()))
-ans = np.linalg.norm(mat,1)
-norm_of_matrix = "{:.2f}".format(ans)
-print(norm_of_matrix)
-# 2-Norm of a Matrix
-'''
-Program to find 2-norm of a matrix.
-Developed by: DINESH R
-RegisterNumber: 212224240037
-'''
-import numpy as np
-mat = np.array(eval(input()))
-ans = np.linalg.norm(mat,2)
-norm_of_matrix='{:.2f}'.format(ans)
-print(norm_of_matrix)
-# Infinity Norm of a Matrix
-'''
-Program to find 2-norm of a matrix.
-Developed by: DINESH R
-RegisterNumber: 212224240037
-'''
-import numpy as np
-mat = np.array(eval(input()))
-norm = np.linalg.norm(mat,ord=np.inf)
+	import numpy as np
+	mat = np.array(eval(input()))
+	ans = np.linalg.norm(mat,1)
+	Norm_of_matrix ="{:.2f}".format(ans)
+	print(Norm_of_matrix)   
 
-print('{:.2f}'.format(norm))
+# 2-Norm of a Matrix
+	import numpy as np
+	mat = np.array(eval(input()))
+	ans = np.linalg.norm(mat,2)
+	Norm_of_matrix ="{:.2f}".format(ans)
+	print(Norm_of_matrix)
+
+# Infinity Norm of a Matrix
+	import numpy as np
+	mat = np.array(eval(input()))
+	ans = np.linalg.norm(mat,np.inf)
+	Norm_of_matrix ="{:.2f}".format(ans)
+	print(Norm_of_matrix)
+
+
+
+
 ```
 ## Output:
 ### 1-Norm of a Matrix
